@@ -1,1 +1,7 @@
 @import url("components/card.css");
+
+.main-container{
+  width: 82vw;
+  margin: 0 auto;
+  padding-top: 1vh;
+}
