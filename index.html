@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Social media dashboard with theme switcher</title>
 
@@ -17,130 +18,125 @@
 </head>
 <body>
   <div class="main-container">
-    <div class="header">
+    <div class="main-header">
       <div>
         <h1>Social Media Dashboard</h1>
-        <p>Total Followers: 23,004</p>
+        <p><strong>Total Followers: 23,004</strong></p>
       </div>
       <div class="theme-switch">
         Dark Mode
       </div>
     </div>
-    <div class="networks-wrapper">
+    <div class="content-wrapper">
       <div class="cards">
-        <div class="card-network">
+        <div class="card-network" id="fb-card">
           <div class="network-user"><img src="images/icon-facebook.svg" alt=""> @nathanf</div>
           <div class="followers-count">1987</div>
-          <div class="followers-title">Followers</div>
+          <div class="followers-title">FOLLOWERS</div>
           <div class="green-variation"><img src="images/icon-up.svg" alt=""> 12 Today</div>
         </div>
-        <div class="card-network">
+        <div class="card-network" id="twitter-card">
           <div class="network-user"><img src="images/icon-twitter.svg" alt=""> @nathanf</div>
           <div class="followers-count">1044</div>
-          <div class="followers-title">Followers</div>
+          <div class="followers-title">FOLLOWERS</div>
           <div class="green-variation"><img src="images/icon-up.svg" alt=""> 99 Today</div>
         </div>
-        <div class="card-network">
+        <div class="card-network" id="instagram-card">
           <div class="network-user"><img src="images/icon-instagram.svg" alt=""> @realnathanf</div>
           <div class="followers-count">11k</div>
-          <div class="followers-title">Followers</div>
+          <div class="followers-title">FOLLOWERS</div>
           <div class="green-variation"><img src="images/icon-up.svg" alt=""> 1099 Today</div>
         </div>
-        <div class="card-network">
+        <div class="card-network" id="youtube-card">
           <div class="network-user"><img src="images/icon-youtube.svg" alt=""> Nathan F.</div>
           <div class="followers-count">8239</div>
-          <div class="followers-title">Subscribers</div>
+          <div class="followers-title">SUBSCRIBERS</div>
           <div class="red-variation"><img src="images/icon-up.svg" alt=""> 144 Today</div>
         </div>
       </div>
-    </div>
-    <h2>Overview - Today</h2>
-    <div class="cards">
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Page Views
-          87
-        </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-facebook.svg" alt="">
-          3%
-        </div>
-
+      <div class="overview-header">
+        <h2>Overview - Today</h2>
       </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Likes
-          52
+      <div class="cards">
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Page Views</p>
+            <img src="images/icon-facebook.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>87</p>
+            <p>3%</p>
+          </div>
         </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-facebook.svg" alt="">
-          2%
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Likes</p>
+            <img src="images/icon-facebook.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>52</p>
+            <p>2%</p>
+          </div>
         </div>
-
-      </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Likes
-          5462
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Likes</p>
+            <img src="images/icon-instagram.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>5462</p>
+            <p>2257%</p>
+          </div>
         </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-instagram.svg" alt="">
-          2257%
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Profile Views</p>
+            <img src="images/icon-instagram.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>52k</p>
+            <p>1375%</p>
+          </div>
         </div>
-
-      </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Profile Views
-          52k
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Retweets<
+              <img src="images/icon-twitter.svg" alt="">/p>
+          </div>
+          <div class="card-overview-flex">
+            <p>117</p>
+            <p>303%</p>
+          </div>
         </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-instagram.svg" alt="">
-          1375%
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Likes</p>
+            <img src="images/icon-twitter.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>507</p>
+            <p>553%</p>
+          </div>
         </div>
-
-      </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Retweets
-          117
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Likes</p>
+            <img src="images/icon-youtube.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>107</p>
+            <p>19%</p>
+          </div>
         </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-twitter.svg" alt="">
-          303%
-        </div>
-
-      </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Likes
-          507
-        </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-twitter.svg" alt="">
-          553%
-        </div>
-
-      </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Likes
-          107
-        </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-youtube.svg" alt="">
-          19%
-        </div>
-
-      </div>
-      <div class="card-overview">
-        <div class="card-overview-infos">
-          Total Views
-          1407
-        </div>
-        <div class="card-overview-variation">
-          <img src="images/icon-youtube.svg" alt="">
-          12%
+        <div class="card-overview">
+          <div class="card-overview-flex">
+            <p>Total Views</p>
+            <img src="images/icon-youtube.svg" alt="">
+          </div>
+          <div class="card-overview-flex">
+            <p>1407</p>
+            <p>12%</p>
+          </div>
         </div>
       </div>
     </div>

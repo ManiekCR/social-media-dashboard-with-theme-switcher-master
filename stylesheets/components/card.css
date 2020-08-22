@@ -38,3 +38,61 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+.card-network{
+  border-radius: 6px;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #F0F3F9;
+}
+
+#fb-card{
+  border-top: solid 4px hsl(208, 92%, 53%);
+}
+
+#twitter-card{
+  border-top: solid 4px hsl(203, 89%, 53%);
+}
+
+#instagram-card{
+  border-top: solid 4px;
+  border-color: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+}
+
+#youtube-card{
+  border-top: solid 4px hsl(348, 97%, 39%);
+}
+
+.card-overview{
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 10px 15px;
+  background-color: #F0F3F9;
+}
+
+.card-overview-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.network-user{
+  font-size: 14px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.followers-count{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.followers-title{
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}

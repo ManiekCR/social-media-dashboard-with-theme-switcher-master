@@ -1,7 +1,29 @@
 @import url("components/card.css");
 
-.main-container{
-  width: 82vw;
+body {
+  font-family: 'Inter', sans-serif;
   margin: 0 auto;
-  padding-top: 1vh;
+}
+
+p{
+  font-size: 14px;
+}
+
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px 135px 125px 135px;
+}
+
+.overview-header{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.content-wrapper{
+  padding: 0 135px;
+  position: relative;
+  top: -105px;
 }
