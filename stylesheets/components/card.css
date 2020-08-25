@@ -46,6 +46,10 @@
   background-color: #F0F3F9;
 }
 
+.card-network:hover{
+  cursor: pointer;
+}
+
 #fb-card{
   border-top: solid 4px hsl(208, 92%, 53%);
 }
@@ -55,8 +59,7 @@
 }
 
 #instagram-card{
-  border-top: solid 4px;
-  border-color: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  border-top: 4px solid hsl(37, 97%, 70%);
 }
 
 #youtube-card{
@@ -66,14 +69,24 @@
 .card-overview{
   font-size: 14px;
   border-radius: 6px;
-  padding: 10px 15px;
+  padding: 10px 22px;
   background-color: #F0F3F9;
+  height: 102px;
+}
+
+.card-overview:hover{
+  cursor: pointer;
 }
 
 .card-overview-flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.card-overview-header{
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .network-user{
@@ -99,14 +112,19 @@
   font-size: 14px;
   letter-spacing: 2px;
   padding-bottom: 30px;
+  color: hsl(228, 12%, 44%);
 }
 
 .green-variation{
   color: hsl(163, 72%, 41%);
+  font-size: 12px;
+  font-weight: bolder;
 }
 
 .red-variation{
   color: hsl(356, 69%, 56%);
+  font-size: 12px;
+  font-weight: bolder;
 }
 
 .card-big-number{

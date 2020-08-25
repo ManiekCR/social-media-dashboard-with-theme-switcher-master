@@ -21,16 +21,24 @@ p{
   background-color: hsl(225, 100%, 98%);
   padding: 20px 135px 125px 135px;
 }
+.main-header p {
+ margin-top: 0px;
+}
+
+.main-header h1 {
+  margin-bottom: 10px
+}
 
 .overview-header{
   padding-top: 20px;
   padding-bottom: 5px;
+  color: hsl(228, 12%, 44%);
 }
 
 .content-wrapper{
   padding: 0 135px;
   position: relative;
-  top: -105px;
+  top: -94px;
 }
 
 .theme-switch{
