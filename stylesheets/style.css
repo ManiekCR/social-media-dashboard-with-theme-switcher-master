@@ -5,8 +5,13 @@ body {
   margin: 0 auto;
 }
 
+h1{
+  color: hsl(230, 17%, 14%);
+}
+
 p{
   font-size: 14px;
+  color: hsl(228, 12%, 44%);
 }
 
 .main-header{
@@ -26,4 +31,8 @@ p{
   padding: 0 135px;
   position: relative;
   top: -105px;
+}
+
+.theme-switch{
+  color: hsl(228, 12%, 44%);
 }

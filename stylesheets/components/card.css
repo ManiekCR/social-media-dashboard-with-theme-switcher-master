@@ -82,7 +82,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.network-user img{
+  padding-right: 5px;
 }
 
 .followers-count{
@@ -94,5 +98,19 @@
   font-weight: lighter;
   font-size: 14px;
   letter-spacing: 2px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+}
+
+.green-variation{
+  color: hsl(163, 72%, 41%);
+}
+
+.red-variation{
+  color: hsl(356, 69%, 56%);
+}
+
+.card-big-number{
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
 }
