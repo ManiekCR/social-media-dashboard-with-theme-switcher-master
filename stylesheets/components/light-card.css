@@ -48,6 +48,7 @@
 
 .card-network:hover{
   cursor: pointer;
+  background-color: #e8ecf4;
 }
 
 #fb-card{
@@ -76,6 +77,7 @@
 
 .card-overview:hover{
   cursor: pointer;
+  background-color: #e8ecf4;
 }
 
 .card-overview-flex{

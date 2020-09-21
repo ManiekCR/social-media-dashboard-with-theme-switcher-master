@@ -9,9 +9,11 @@ btn.addEventListener("click", function() {
   if (theme.getAttribute("href") == "stylesheets/light-theme.css") {
     // ... then switch it to "dark-theme.css"
     theme.href = "stylesheets/dark-theme.css";
+    btn.innerHTML="Light Mode";
   // Otherwise...
   } else {
     // ... switch it to "light-theme.css"
     theme.href = "stylesheets/light-theme.css";
+    btn.innerHTML="Dark Mode";
   }
 });
