@@ -1,6 +1,5 @@
 // Select the button
 const btn = document.querySelector(".toggle-button");
-console.log(btn);
 // Select the stylesheet <link>
 const theme = document.querySelector("#theme-link");
 
