@@ -1,0 +1,48 @@
+@import url("components/dark-card.css");
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  background-color: hsl(230, 17%, 14%) !important;
+}
+
+h1{
+  color: hsl(230, 17%, 14%);
+}
+
+p{
+  font-size: 14px;
+  color: hsl(228, 34%, 66%);
+}
+
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(232, 19%, 15%);
+  padding: 20px 135px 125px 135px;
+}
+.main-header p {
+ margin-top: 0px;
+}
+
+.main-header h1 {
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.overview-header{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: hsl(0, 0%, 100%);
+}
+
+.content-wrapper{
+  padding: 0 135px;
+  position: relative;
+  top: -94px;
+}
+
+.theme-switch{
+  color: hsl(228, 34%, 66%);
+}

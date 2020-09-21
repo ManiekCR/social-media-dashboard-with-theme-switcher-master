@@ -1,0 +1,135 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+// Smallest device
+@media(min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media(min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media(min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media(min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media(min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.card-network{
+  border-radius: 6px;
+  text-align: center;
+  padding: 25px 0;
+  background-color: hsl(228, 28%, 20%);
+}
+
+.card-network:hover{
+  cursor: pointer;
+}
+
+#fb-card{
+  border-top: solid 4px hsl(208, 92%, 53%);
+}
+
+#twitter-card{
+  border-top: solid 4px hsl(203, 89%, 53%);
+}
+
+#instagram-card{
+  border-top: 4px solid hsl(37, 97%, 70%);
+}
+
+#youtube-card{
+  border-top: solid 4px hsl(348, 97%, 39%);
+}
+
+.card-overview{
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 10px 22px;
+  background-color: hsl(228, 28%, 20%);
+  height: 102px;
+}
+
+.card-overview:hover{
+  cursor: pointer;
+}
+
+.card-overview-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-overview-header{
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.network-user{
+  font-size: 14px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.network-user img{
+  padding-right: 5px;
+}
+
+.followers-count{
+  font-weight: bold;
+  font-size: 50px;
+  color: hsl(0, 0%, 100%);
+}
+
+.followers-title{
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+  color: hsl(228, 34%, 66%);
+}
+
+.green-variation{
+  color: hsl(163, 72%, 41%);
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.red-variation{
+  color: hsl(356, 69%, 56%);
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.card-big-number{
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: bolder;
+}
