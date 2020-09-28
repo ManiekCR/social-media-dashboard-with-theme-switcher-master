@@ -6,6 +6,12 @@ body {
   background-color: hsl(230, 17%, 14%) !important;
 }
 
+footer{
+  text-align: center;
+  margin-top: -20px;
+  color: hsl(228, 34%, 66%);
+}
+
 h1{
   color: hsl(230, 17%, 14%);
 }

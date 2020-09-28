@@ -5,6 +5,12 @@ body {
   margin: 0 auto;
 }
 
+footer{
+  text-align: center;
+  margin-top: -20px;
+  color: hsl(228, 12%, 44%);
+}
+
 h1{
   color: hsl(230, 17%, 14%);
 }
